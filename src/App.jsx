@@ -4,7 +4,7 @@ import { useState } from 'react'
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1 className='text-4xl font-bold'>Vite + React</h1>
     </>
   )
 }

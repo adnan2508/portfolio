@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 
 function App() {
   return (
     <>
     <Navbar/>
-      <h1 className='text-4xl font-bold font-signature'>Vite + React</h1>
+    <Home/>
     </>
   )
 }

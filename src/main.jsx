@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import About from './components/About.jsx';
 
 const router = createBrowserRouter([
   {

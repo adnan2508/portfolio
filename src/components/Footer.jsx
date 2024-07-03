@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaSquareXTwitter, FaFacebook } from "react-icons/
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
+      <footer className="footer bg-neutral footer-center text-neutral-content rounded p-10">
   <nav>
     <div className="grid grid-flow-col gap-4">
       <a href='https://www.linkedin.com/in/md-adnan-shiragee/'>

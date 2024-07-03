@@ -11,22 +11,22 @@ const Projects = () => {
       id: 1,
       name: "Conformz",
       src: conformz,
-      demo:'https://conformz.web.app/',
+      live:'https://conformz.web.app/',
       code: 'https://github.com/adnan2508/conformz'
     },
     {
       id: 2,
       name: "Dine-Ease",
       src: dineease,
-      demo:'https://conformz.web.app/',
-      code: 'https://github.com/adnan2508/conformz'
+      live:'https://dineease-5bb20.web.app/',
+      code: 'https://github.com/adnan2508/dine-ease'
     },
     {
       id: 3,
       name: "Explorex",
       src: explorex,
-      demo:'https://conformz.web.app/',
-      code: 'https://github.com/adnan2508/conformz'
+      live:'https://explorex-c0add.web.app/',
+      code: 'https://github.com/adnan2508/explorex'
     },
   ];
   return (
@@ -51,7 +51,7 @@ const Projects = () => {
               <h2 className='text-xl font-semibold'>{project.name}</h2>
             </div>
             <div className='flex items-center justify-center'>
-              <Link to={project.demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</Link>
+              <Link to={project.live} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</Link>
               <Link to={project.code} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</Link>
             </div>
           </div>

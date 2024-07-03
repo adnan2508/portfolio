@@ -94,7 +94,7 @@ const Skills = () => {
             techs.map(tech => (
               <div 
               key={tech.id} 
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${tech.style}`}>
+              className={`shadow-md hover:scale-105 mb-3 duration-500 py-2 rounded-lg ${tech.style}`}>
             <img src={tech.src} alt="" className='w-20 mx-auto'/>
             <p className='mt-4'>{tech.title}</p>
           </div>

@@ -38,7 +38,7 @@ const Projects = () => {
           <p className='py-6'>Check out some of my works right here</p>
         </div>
 
-        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-10 sm:px-0'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-10 pb-80 md:pb-52 sm:px-0'>
         {
           projects.map(project => (
             <div key={project.id} className='shadow-md shadow-gray-600 rounded-lg'>

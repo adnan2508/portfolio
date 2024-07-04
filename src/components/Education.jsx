@@ -8,6 +8,7 @@ const Education = () => {
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Education</p>
           <p className='py-6 text-2xl'>BSc in Computer Science and Engineering</p>
           <p className='text-2xl'>Daffodil International University</p>
+          <p className='text-2xl'>2019-2023</p>
         </div>
       </div>
     </div>

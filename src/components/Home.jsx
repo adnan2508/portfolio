@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/adnan.png";
-import { FaDownload  } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -14,16 +14,16 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a passionate full stack web developer. I love to work on web
-            application using technologies like React, Tailwind, Node, Express
-            and Mongodb.
+            I am <span className="text-blue-700">Md Adnan Shiragee</span> and I am a passionate full stack web
+            developer. I love to work on web application using technologies like
+            React, Tailwind, Node, Express and Mongodb.
           </p>
           <div>
             <a href="../../public/MdAdnan_Shiragee.pdf" download={true}>
               <button className="group text-white w-fit px-6 py-3 my-2 flex gap-3 items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 Resume
                 <span className="">
-                  <FaDownload  size={20} className="" />
+                  <FaDownload size={20} className="" />
                 </span>
               </button>
             </a>

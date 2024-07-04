@@ -22,7 +22,7 @@ const Projects = () => {
       name: "Dine-Ease",
       description: "Dineease is Restaurant Management website. User can add a food item and also he/she can see his/her added food item list in a protected route. User can also purchase food items if it's available for them",
       feature: "Add item, Delete item, Purchase item",
-      tech: "React, Node, MongoDB",
+      tech: "React, Node, MongoDB, Tailwind CSS",
       src: dineease,
       live:'https://dineease-5bb20.web.app/',
       code: 'https://github.com/adnan2508/dine-ease'

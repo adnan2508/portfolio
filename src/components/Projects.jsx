@@ -11,7 +11,7 @@ const Projects = () => {
       id: 1,
       name: "Conformz",
       description: 'This is a contest making platform. User can participate in various contests and a contest creator can create and select winner for a particular contest. An Admin can give or block anyone and approves contest from creators.',
-      feature: "Add contest, Select winner, Payment method",
+      feature: "Add contest, Select winner, Payment method, React toastify",
       tech: "React, Node, MongoDB",
       src: conformz,
       live:'https://conformz.web.app/',
@@ -32,7 +32,7 @@ const Projects = () => {
       name: "Explorex",
       description: "Explorex is a Tourism Management website. Explorex offers a seamless and immersive experience for travel enthusiasts, providing detailed information on a wide array of breathtaking destinations with user-friendly navigation.",
       feature: "Add tourist spot, Delete spot, Login/Logout method",
-      tech: "React, Node, MongoDB",
+      tech: "React, Node, MongoDB, Swipper js",
       src: explorex,
       live:'https://explorex-c0add.web.app/',
       code: 'https://github.com/adnan2508/explorex'

@@ -10,6 +10,9 @@ const Projects = () => {
     {
       id: 1,
       name: "Conformz",
+      description: 'This is a contest making platform. User can participate in various contests and a contest creator can create and select winner for a particular contest. An Admin can give or block anyone and approves contest from creators.',
+      feature: "Add contest, Select winner, Payment method",
+      tech: "React, Node, MongoDB",
       src: conformz,
       live:'https://conformz.web.app/',
       code: 'https://github.com/adnan2508/conformz'
@@ -17,6 +20,9 @@ const Projects = () => {
     {
       id: 2,
       name: "Dine-Ease",
+      description: "Dineease is Restaurant Management website. User can add a food item and also he/she can see his/her added food item list in a protected route. User can also purchase food items if it's available for them",
+      feature: "Add item, Delete item, Purchase item",
+      tech: "React, Node, MongoDB",
       src: dineease,
       live:'https://dineease-5bb20.web.app/',
       code: 'https://github.com/adnan2508/dine-ease'
@@ -24,6 +30,9 @@ const Projects = () => {
     {
       id: 3,
       name: "Explorex",
+      description: "Explorex is a Tourism Management website. Explorex offers a seamless and immersive experience for travel enthusiasts, providing detailed information on a wide array of breathtaking destinations with user-friendly navigation.",
+      feature: "Add tourist spot, Delete spot, Login/Logout method",
+      tech: "React, Node, MongoDB",
       src: explorex,
       live:'https://explorex-c0add.web.app/',
       code: 'https://github.com/adnan2508/explorex'
@@ -49,6 +58,9 @@ const Projects = () => {
             />
             <div className='mx-8 my-5'>
               <h2 className='text-xl font-semibold'>{project.name}</h2>
+              <p className='text-base mt-5'>{project.description}</p>
+              <p className='text-base mt-5'>Features: {project.feature}</p>
+              <p className='text-base mt-5'>Technologies: {project.tech}</p>
             </div>
             <div className='flex items-center justify-center'>
               <Link to={project.live} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</Link>

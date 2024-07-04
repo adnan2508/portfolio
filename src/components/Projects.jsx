@@ -30,7 +30,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div name='projects' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name='projects' className='py-16 bg-gradient-to-b from-black to-gray-800 w-full text-white '>
 
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
@@ -38,7 +38,7 @@ const Projects = () => {
           <p className='py-6'>Check out some of my works right here</p>
         </div>
 
-        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-10 pb-80 md:pb-52 sm:px-0'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-10 sm:px-0'>
         {
           projects.map(project => (
             <div key={project.id} className='shadow-md shadow-gray-600 rounded-lg'>

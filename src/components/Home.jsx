@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/adnan.png";
-import { FaArrowRightLong, FaDownload  } from "react-icons/fa6";
+import { FaDownload  } from "react-icons/fa6";
 
 const Home = () => {
   return (

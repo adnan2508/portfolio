@@ -19,7 +19,7 @@ const Home = () => {
             React, Tailwind, Node, Express and Mongodb.
           </p>
           <div>
-            <a href="../../public/MdAdnan_Shiragee.pdf" download={true}>
+            <a href="../../public/Adnan Shiragee Resume.pdf" download={true}>
               <button className="group text-white w-fit px-6 py-3 my-2 flex gap-3 items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 Resume
                 <span className="">
